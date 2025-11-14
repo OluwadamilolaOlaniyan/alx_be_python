@@ -14,7 +14,7 @@ match priority:
 
 
 if time_bound == "yes":
-    message = message + " is a high priority task that requires immediate attention today!"
+    message = message + " that requires immediate attention today!"
 
 else:
     message = "Note: " + message + ". Consider completing it when you have free time."
